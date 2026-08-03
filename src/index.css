@@ -1,0 +1,7 @@
+body { font-family: Arial; margin: 0; background: #f4f4f4 }
+.container {max-width: 900px; margin: auto; padding: 20px}
+.task{background:white;padding:10px;margin:5px 0;border-radius:4px}
+.done {text-decoration: line-through; color: #999}
+.btn { background: #3b82f6; color: white; border: none; padding: 6px 12px; cursor: pointer }
+.btn-red{background:red}
+.error { color: red }
