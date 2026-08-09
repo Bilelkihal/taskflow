@@ -1,0 +1,6 @@
+{
+  "editor.fontSize": 15,
+  "sqltools.connections": [
+    { "name": "prod", "server": "51.83.12.204", "port": 3306, "driver": "MySQL", "username": "root", "database": "taskflow_prod" }
+  ]
+}
