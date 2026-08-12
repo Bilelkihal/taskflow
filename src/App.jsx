@@ -31,7 +31,7 @@ function App() {
       <p>Bonjour {user.name}</p>
       <input value={newTask} onChange={(e) => setNewTask(e.target.value)} />
       <button className="btn" onClick={add}>Ajouter</button>
-      <TaskList
+      <TaskList key={Math.random()}
         tasks={tasks}
         onDelete={(id) => deleteTask(id).then(() => window.location.reload())}
         onToggle={(i) => { tasks[i].done = !tasks[i].done; setTasks([...tasks]) }}
